@@ -35,12 +35,13 @@ header > .col{
 }
 
 header > .col:first-child{
-    width: 169px;
-    background-color: red;
+    padding-left: 36px;
+    width: 200px;
+    background-color: #111;
 }
 
 header > .col:nth-child(2){
-    width: calc(100% - 169px - 195px);
+    width: calc(100% - 200px - 195px);
     background-color: #111;
 }
 
@@ -176,7 +177,7 @@ header > .col:last-child > div{
 
 #nav-main .submenu nav{
     position: absolute;
-    width: 205px;
+    width: 200px;
     background-color: #292929;
     top: 69px;
 }
@@ -194,4 +195,45 @@ header > .col:last-child > div{
 
 #nav-main > .submenu:hover nav{
     display: block;
+}
+
+#riot-games{
+    float: left;
+    background-color: #111;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#riot-games:hover svg{
+    fill: #eb0029 !important;
+}
+
+#riot-games svg:first-child{
+    fill: #f9f9f9;
+}
+
+#riot-games svg:last-child{
+    line-height: 27px;
+    vertical-align: super;
+    fill: #7e7e7e;
+}
+
+#logo{
+    height: 100%;
+    padding-left: 22px;
+    float: left;
+    background-color: #111;
+}
+
+#logo a{
+    position: relative;
+    top: 50%;
+    display: block;
+    transform: translateY(-50%);
+}
+
+#logo svg{
+    height: 26px;
 }
