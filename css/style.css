@@ -237,3 +237,19 @@ header > .col:last-child > div{
 #logo svg{
     height: 26px;
 }
+
+#overlay{
+    visibility: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(17, 17, 17, 0.767);
+}
+
+#mega-menu{
+    height: 0%;
+    background-color: white;
+    transition: height 500ms;
+}
